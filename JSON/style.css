@@ -1,0 +1,58 @@
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style untuk judul */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Container untuk daftar pengguna */
+#id-user {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Style untuk setiap data pengguna */
+.data {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Style untuk judul di dalam div data */
+
+/* Style untuk informasi di dalam div data */
+.data p {
+    margin: 10px 0;
+    color: #666666;
+}
+
+/* Style saat hover pada data */
+.data:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style untuk mempercantik tampilan garis pembatas */
+hr {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    margin: 20px 0;
+}
